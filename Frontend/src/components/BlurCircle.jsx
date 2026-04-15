@@ -1,15 +1,17 @@
-import React from 'react'
+import React from "react";
 
-const BlurCircle = ({ top = "auto", bottom = "auto", right = "auto", left = "auto" }) => {
+const BlurCircle = ({
+  top = "auto",
+  bottom = "auto",
+  right = "auto",
+  left = "auto",
+}) => {
   return (
     <div
-      className="absolute z-0 h-64 w-64 aspect-square rounded-full bg-red-400/30 blur-3xl"
+      className="absolute z-0 h-64 w-64 rounded-full bg-red-400/30 blur-3xl pointer-events-none"
       style={{ top, bottom, right, left }}
-    >
-    </div>
-  )
+    ></div>
+  );
 };
 
-
-
-export default BlurCircle
+export default BlurCircle;

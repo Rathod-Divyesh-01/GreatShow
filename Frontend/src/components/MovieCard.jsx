@@ -7,7 +7,7 @@ const MovieCard = ({ movie }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-gray-900 text-white rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer w-72 m-4 p-2">
+    <div className="bg-gray-900 text-white rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer w-72 m-4 p-2 mx-auto">
       {/* Image */}
       <div className="overflow-hidden pb-3 rounded-xl">
         <img
